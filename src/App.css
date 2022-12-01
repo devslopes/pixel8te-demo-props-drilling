@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#pixel-board {
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pixel {
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  margin: 20px 10px;
+}
